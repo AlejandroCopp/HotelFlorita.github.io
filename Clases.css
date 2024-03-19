@@ -1,0 +1,410 @@
+.div-imagen-fondo {
+  background-image: url(Rooms/muro-hormigon-blanco.jpg);
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.9px;
+
+}
+
+.header {
+  background: no-repeat center;
+  background-size: cover;
+  min-height: 25vh;
+
+}
+
+/* NAV BAR */
+
+.header .navbar {
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.navbar-toggler {
+  position: relative;
+  right: 8px;
+}
+
+.navbar-toggler-icon {
+  background-image: url(img/LogoHotel.jpeg);
+  height: 160px;
+  width: 150px;
+  zoom: 60%;
+  border-radius: 15%;
+
+
+}
+
+/* Media queri para que el nav tenga height 15% en resolucion grnade*/
+
+@media only screen and (min-width: 991px) {
+  .header .navbar {
+    height: 110px;
+  }
+
+
+  .navbar-brand {
+    background-image: url(img/LogoHotel.jpeg);
+    border-radius: 15%;
+    height: 175px;
+    width: 175px;
+    zoom: 50%;
+    position: relative;
+    margin: 30px;
+
+  }
+
+  .divider-vertical-second-menu {
+    height: 20px;
+    width: 1px;
+    margin: 0 15px;
+    overflow: hidden;
+    background-color: #616161;
+    border-right: 2px solid #7c7c7c;
+  }
+
+  .texto-absoluto {
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+  }
+
+  .texto-absoluto h5 {
+    font-size: 600%;
+    color: whitesmoke;
+  }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 991px) {
+  .header .navbar {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.589), transparent);
+    backdrop-filter: blur(2px);
+  }
+
+  .texto-absoluto {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }
+
+  .texto-absoluto h5 {
+    font-size: 400%;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+  }
+
+  .header .navbar {
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+
+  }
+
+}
+
+
+
+@media only screen and (max-width: 609px) {
+  .texto-absoluto h5 {
+    color: #000;
+    font-size: 0%;
+  }
+}
+
+
+
+.navbar-scrolled {
+  background-color: rgba(0, 0, 0, 0.89);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.116);
+}
+
+.nav-link {
+  font-size: large;
+}
+
+.navbar {
+  transition: all 0.5s;
+}
+
+/* Alineacion del menu hamburguesa */
+.navbar-nav {
+  flex-direction: column;
+  align-items: center;
+}
+
+.parallax {
+  /* The image used */
+  /* background-image: url("https://picsum.photos/359/240?random"); */
+
+  /* Set a specific height */
+  /* min-height: 500px;*/
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.carousel-inner {
+  z-index: 0;
+}
+
+
+.gradient-overlay {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), transparent);
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/* ROOMS  */
+.fuentePrecios {
+  /* font-style: unset; */
+  font-family: "TeamWork";
+  font-size: x-large;
+}
+
+.h1 {
+  font-family: "TeamWork";
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.h2 {
+  font-family: "TeamWork";
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.fuentePrecios {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+  color: #3b3b3b;
+}
+
+.card-title {
+  color: rgb(0, 0, 0);
+  font-size: xx-large;
+  font-weight: 400;
+  padding-bottom: 3%;
+  padding-left: 3%;
+}
+
+.card-title2 {
+  color: rgb(42, 187, 255);
+  font-size: xx-large;
+  font-weight: 400;
+}
+
+.card-text {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+  line-height: 35px;
+  color: #3b3b3b;
+  font-size: x-large;
+}
+
+#targetas{
+background-color: rgba(255, 255, 255, 0.651);
+padding: 1%;
+padding-top: 2%;
+margin-left: 10%;
+margin-right: 10%;
+}
+
+.card .imgslider{
+  border-radius: 3%;
+
+}
+
+.slider-nav {
+
+}
+
+
+#colt{
+  position: relative;
+  
+}
+
+@media only screen and (min-width: 1500px) {
+  
+.card .d-grid {
+position: absolute;
+ bottom: 4%; 
+ margin: 1%;
+ right: 0;
+}
+ }
+/* IN----------------------------------------------------------------------------DEX  */
+.iconostargeta{
+  background-color: #d1d1d113;
+  padding: 2%;
+  font-size:large;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 2%;
+}
+
+
+/* INDEX  */
+/* el fondo del contenedor del titulo index  */
+.fondo-contenedor-index {
+  width: 100%;
+  border-radius: 5px;
+  padding: 0;
+}
+
+/* esta clase es para los guiones entre textos o imagenes  */
+.guion {
+  border: 1px rgb(0, 0, 0) solid;
+}
+
+.img-celeste {
+  background-image: url(./Rooms/muro-hormigon-celeste.png);
+}
+
+.img-oscura {
+  background-image: url(./Rooms/muro-hormigon-negro.png);
+}
+
+.imagenIndex {}
+
+/* Explore  */
+
+.targetainversa {
+  flex-direction: row-reverse;
+}
+
+.card {
+  border: none;
+  background-color: transparent;
+  padding: 5%;
+}
+
+.targetaobscura {
+  background-color: rgba(0, 0, 0, 0.055);
+}
+
+
+/*     Restaurant        */
+
+#galeria {
+  position: relative;
+  z-index: 0;
+}
+
+#galeria img {
+  width: 100%;
+  height: 300px;
+  transform: scale3d(1, 1, 1);
+  transition: transform 1s ease-in-out;
+  object-fit: cover;
+  padding-bottom: 20px;
+  border-radius: 10%;
+  z-index: 0;
+}
+
+#galeria img:hover {
+  transform: scale3d(1.1, 1.1, 1);
+  transition: transform 500ms ease-in-out;
+}
+
+
+#galeria .col-lg-6 {
+  z-index: 1;
+}
+
+
+#galeria .col-lg-4 {
+  margin: 0;
+  padding: 25px;
+}
+
+
+
+
+/*
+@font-face {
+  font-family: "TeamWork";
+  src: url("TeamWork.ttf.woff") format("woff"),
+    url("TeamWork.ttf.svg#TeamWork") format("svg"), url("TeamWork.ttf.eot"),
+    url("TeamWork.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+
+
+/*     Form        */
+
+
+#aa-contact {
+  font-family: 'Oswald', sans-serif;
+  font-size: x-large;
+}
+
+.form-control{
+  background-color: rgba(255, 255, 255, 0.767);
+}
+
+#message-contact{
+  display: flex;
+}
+#message-contact i{
+  margin-right: 2%;
+  margin-top: 6px;
+}
+#register_form .row{
+margin: 30px;
+}
+
+#register_form .row label{
+  text-decoration:underline;
+  }
+
+  #register_form ::placeholder{
+    opacity: 50%;
+    }
+
+    #register_form select{
+      color: rgba(0, 0, 0, 0.486);
+  }
+
+  .box_style_4 i{
+    font-size: 150px;
+    margin-top: 110px;
+    margin-bottom: 90px;
+  }
+  .box_style_3 i{
+    font-size: 150px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+
+  .box_style_4 {
+    text-align: center;
+  }
+
+  .box_style_3 {
+    text-align: center;
+  }
