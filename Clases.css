@@ -93,9 +93,12 @@
   .header .navbar {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.589), transparent);
     backdrop-filter: blur(2px);
-    background-color: #000;
 
   }
+
+.navbar{
+  background-color: #000;
+}
 
   .navbar-toggler:active{
     background-color: #000;
