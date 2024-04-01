@@ -93,11 +93,8 @@
   .header .navbar {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.589), transparent);
     backdrop-filter: blur(2px);
-
   }
 
-
- 
 
 .navbar{
   background-color: #000;
@@ -106,9 +103,6 @@
   .navbar-toggler:active{
     background-color: #000;
     }
-
-   
-
 
   .texto-absoluto {
     position: absolute;
@@ -131,6 +125,15 @@
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
 
   }
+
+.carousel {
+  margin-top: 110px;
+
+}
+.carousel-inner{
+  
+}
+
 
 }
 
