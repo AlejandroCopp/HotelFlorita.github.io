@@ -130,9 +130,10 @@
   margin-top: 110px;
 
 }
-.carousel-inner{
-  
-}
+#carousel-item1 {
+  width: 100%;
+
+ }
 
 
 }
@@ -144,6 +145,10 @@
     color: #000;
     font-size: 0%;
   }
+  #carousel-item1 {
+    width: 250%;
+  
+   }
 }
 
 
