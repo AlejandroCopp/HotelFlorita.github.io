@@ -38,7 +38,6 @@
 
 
 
-
 /* Media queri para que el nav tenga height 15% en resolucion grnade*/
 
 @media only screen and (min-width: 991px) {
@@ -83,10 +82,16 @@
     color: whitesmoke;
   }
 
-
+  
 }
 
 
+@media only screen and (min-width: 609px) {
+  
+  #carruselMobile {
+    display: none;
+  }
+}
 
 
 @media only screen and (max-width: 991px) {
@@ -96,13 +101,13 @@
   }
 
 
-.navbar{
-  background-color: #000;
-}
-
-  .navbar-toggler:active{
+  .navbar {
     background-color: #000;
-    }
+  }
+
+  .navbar-toggler:active {
+    background-color: #000;
+  }
 
   .texto-absoluto {
     position: absolute;
@@ -126,14 +131,15 @@
 
   }
 
-.carousel {
-  margin-top: 110px;
+  .carousel {
+    margin-top: 110px;
 
-}
-#carousel-item1 {
-  width: 100%;
+  }
 
- }
+  #carousel-item1 {
+    width: 100%;
+
+  }
 
 
 }
@@ -145,10 +151,10 @@
     color: #000;
     font-size: 0%;
   }
-  #carousel-item1 {
-    width: 250%;
-  
-   }
+
+  #carruselPc {
+    display: none;
+  }
 }
 
 
@@ -250,43 +256,42 @@
   font-size: x-large;
 }
 
-#targetas{
-background-color: rgba(255, 255, 255, 0.651);
-padding: 1%;
-padding-top: 2%;
-margin-left: 10%;
-margin-right: 10%;
+#targetas {
+  background-color: rgba(255, 255, 255, 0.651);
+  padding: 1%;
+  padding-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-.card .imgslider{
+.card .imgslider {
   border-radius: 3%;
 
 }
 
-.slider-nav {
-
-}
+.slider-nav {}
 
 
-#colt{
+#colt {
   position: relative;
-  
+
 }
 
 @media only screen and (min-width: 1500px) {
-  
-.card .d-grid {
-position: absolute;
- bottom: 4%; 
- margin: 1%;
- right: 0;
+
+  .card .d-grid {
+    position: absolute;
+    bottom: 4%;
+    margin: 1%;
+    right: 0;
+  }
 }
- }
+
 /* IN----------------------------------------------------------------------------DEX  */
-.iconostargeta{
+.iconostargeta {
   background-color: #d1d1d113;
   padding: 2%;
-  font-size:large;
+  font-size: large;
   font-family: 'Oswald', sans-serif;
   margin-bottom: 2%;
 }
@@ -389,51 +394,54 @@ position: absolute;
   font-size: x-large;
 }
 
-.form-control{
+.form-control {
   background-color: rgba(255, 255, 255, 0.767);
 }
 
-#message-contact{
+#message-contact {
   display: flex;
 }
-#message-contact i{
+
+#message-contact i {
   margin-right: 2%;
   margin-top: 6px;
 }
-#register_form .row{
-margin: 30px;
+
+#register_form .row {
+  margin: 30px;
 }
 
-#register_form .row label{
-  text-decoration:underline;
-  }
+#register_form .row label {
+  text-decoration: underline;
+}
 
-  #register_form ::placeholder{
-    opacity: 50%;
-    }
+#register_form ::placeholder {
+  opacity: 50%;
+}
 
-    #register_form select{
-      color: rgba(0, 0, 0, 0.486);
-  }
+#register_form select {
+  color: rgba(0, 0, 0, 0.486);
+}
 
-  .box_style_4 i{
-    font-size: 150px;
-    margin-top: 110px;
-    margin-bottom: 90px;
-  }
-  .box_style_3 i{
-    font-size: 150px;
-    margin-top: 80px;
-    margin-bottom: 20px;
-  }
+.box_style_4 i {
+  font-size: 150px;
+  margin-top: 110px;
+  margin-bottom: 90px;
+}
 
-  .box_style_4 {
-    text-align: center;
-  }
+.box_style_3 i {
+  font-size: 150px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
 
-  .box_style_3 {
-    text-align: center;
-  }
+.box_style_4 {
+  text-align: center;
+}
+
+.box_style_3 {
+  text-align: center;
+}
 
 
 
@@ -441,80 +449,82 @@ margin: 30px;
 /*     Photo efx        */
 
 
-  .ph{
-    text-align:center;
-    display:inline-block;
-    position:relative;
-    border:solid 12px rgb(255, 255, 255);
-    background:#fff;
-    box-shadow:0 0 15px 0px #555;
-    transition:all 1s ease;
-    -o-transition:all 1s ease;
-    -moz-transition:all 1s ease;
-    -webkit-transition:all 1s ease;
-    top:50px;
-    transform:rotate(-10deg);
-    margin-right: 50%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .ph:hover{
-    top:0px;
-    opacity:0.9;
-    height: 110%;
-  }
+.ph {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  border: solid 12px rgb(255, 255, 255);
+  background: #fff;
+  box-shadow: 0 0 15px 0px #555;
+  transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  top: 50px;
+  transform: rotate(-10deg);
+  margin-right: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ph:hover {
+  top: 0px;
+  opacity: 0.9;
+  height: 110%;
+}
 
 
- 
-  .ph2{
-    text-align:center;
-    display:inline-block;
-    position:relative;
-    border:solid 12px rgb(255, 255, 255);
-    background:#fff;
-    box-shadow:0 0 15px 0px #555;
-    transition:all 1s ease;
-    -o-transition:all 1s ease;
-    -moz-transition:all 1s ease;
-    -webkit-transition:all 1s ease;
-    top:50px;
-    transform:rotate(10deg);
-    margin-right: 50%;
-    height: 90%;
-    width: 90%;
-    object-fit: cover;
 
-  }
-  .ph2:hover{
-    top:0px;
-    opacity:0.9;
-    height: 100%;
-    width: 100%;
-  }
+.ph2 {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  border: solid 12px rgb(255, 255, 255);
+  background: #fff;
+  box-shadow: 0 0 15px 0px #555;
+  transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  top: 50px;
+  transform: rotate(10deg);
+  margin-right: 50%;
+  height: 90%;
+  width: 90%;
+  object-fit: cover;
 
-  .ph3{
-    text-align:center;
-    display:inline-block;
-    position:relative;
-    border:solid 12px rgb(255, 255, 255);
-    background:#fff;
-    box-shadow:0 0 15px 0px #555;
-    transition:all 1s ease;
-    -o-transition:all 1s ease;
-    -moz-transition:all 1s ease;
-    -webkit-transition:all 1s ease;
-    top:50px;
-    transform:rotate(-10deg);
-    margin-right: 50%;
-    height: 90%;
-    width: 90%;
-    object-fit: cover;
+}
 
-  }
-  .ph3:hover{
-    top:0px;
-    opacity:0.9;
-    height: 100%;
-    width: 100%;
-  }
+.ph2:hover {
+  top: 0px;
+  opacity: 0.9;
+  height: 100%;
+  width: 100%;
+}
 
+.ph3 {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  border: solid 12px rgb(255, 255, 255);
+  background: #fff;
+  box-shadow: 0 0 15px 0px #555;
+  transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  top: 50px;
+  transform: rotate(-10deg);
+  margin-right: 50%;
+  height: 90%;
+  width: 90%;
+  object-fit: cover;
+
+}
+
+.ph3:hover {
+  top: 0px;
+  opacity: 0.9;
+  height: 100%;
+  width: 100%;
+}
