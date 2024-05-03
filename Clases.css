@@ -347,8 +347,24 @@
 
 .targetaobscura {
   background-color: rgba(0, 0, 0, 0.055);
+  overflow: hidden;
+  position: relative;
 }
-
+.contfondoblur {
+  overflow: hidden;
+  position: relative;
+}
+.targetafondo {
+  background-image: url(/img/HaitianExperienceimg.png);
+  background-size:cover;
+  background-position: center;
+  opacity: 50%;
+  margin-top: 20%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
 
 /*     Restaurant        */
 
