@@ -337,6 +337,7 @@
 .contfondoblur {
   overflow: hidden;
   position: relative;
+  
 }
 .targetafondo {
   background-image: url(/img/HaitianExperienceimg.png);
