@@ -344,10 +344,10 @@
   background-size:cover;
   background-position: center;
   opacity: 50%;
-  margin-top: 20%;
   left: 0;
+  top: 0;
   width: 100%;
-  height: 800px;
+  height: 100%;
   position: absolute;
   background-attachment: fixed;
 }
@@ -362,7 +362,7 @@
 #galeria img {
   width: 100%;
   height: 300px;
-  transform: scale3d(1, 1, 1);
+  transform: (1, 1, 1);
   transition: transform 1s ease-in-out;
   object-fit: cover;
   padding-bottom: 20px;
