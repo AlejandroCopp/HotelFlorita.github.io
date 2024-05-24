@@ -352,6 +352,15 @@
   background-attachment: fixed;
 }
 
+.col-auto {
+  flex: 0 0 auto;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*     Restaurant        */
 
 #galeria {
